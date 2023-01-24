@@ -3,6 +3,13 @@
 .holder{
 /* 	border:1px solid red; */
 	display:grid;
-	grid-template-row:repeat(2,200px);
+	grid-template-rows:repeat(2,200px);
 	grid-template-columns:repeat(2,200px);
+	gap:10px;
 }
+.box{
+	
+	border:1px solid red;
+	background-color:black;
+}
+
